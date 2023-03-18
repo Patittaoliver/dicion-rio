@@ -1,0 +1,25 @@
+div {
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+@media  (max-width: 768px) {
+        div {
+            border-color: red;
+            display: block;
+            padding: 10px;
+            margin: 20px 10px;
+        }
+
+        h2  {
+            font-size: 36px;
+            color: blueviolet;  
+            text-decoration: underline;
+        }
+
+        p {
+            color: green
+        }
+}
